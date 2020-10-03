@@ -3,10 +3,12 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { FilterSidebarComponent } from './filter-sidebar/filter-sidebar.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    FilterSidebarComponent
   ],
   imports: [
     BrowserModule.withServerTransition({ appId: 'serverApp' }),
