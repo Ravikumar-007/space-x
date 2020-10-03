@@ -7,6 +7,7 @@
   align-items: center;
   padding: 0 40px 0 40px;
 }
+
 .main-container {
   width: 90% !important;
   margin-left: 220px;
@@ -14,14 +15,15 @@
   display: inline-block;
   align-content: center;
 }
+
 .content-box {
   background: #fff;
   width: 20%;
   display: inline-block;
   height: auto;
   box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
-  margin-bottom:1%;
-  margin-left:0.5%;
+  margin-bottom: 1%;
+  margin-left: 0.5%;
   padding: 1% 2%;
   border-radius: 20px;
 }
